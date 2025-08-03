@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Metadatos básicos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayan Palacio | Desarrollador de software</title>
     <meta name="description" content="Desarrollador de software especializado en JavaScript, React, MySQL y PHP. Soluciones tecnológicas innovadoras y eficientes para empresas.">
     <meta name="keywords" content="desarrollador web, JavaScript, React, PHP, MySQL, Full Stack, Medellín">
     <meta name="author" content="Brayan Palacio">
-    <title>Brayan Palacio | Desarrollador de software</title>
-    <link rel="icon" href="Img/favicon.png" type="image/x-icon">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Fuentes y estilos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Open Graph / Facebook / LinkedIn / Discord -->
+    <meta property="og:url" content="https://brayanpalacio.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Brayan Palacio | Desarrollador de software">
+    <meta property="og:description" content="Desarrollador de software especializado en JavaScript, React, MySQL y PHP. Soluciones tecnológicas innovadoras y eficientes para empresas.">
+    <meta property="og:image" content="https://brayanpalacio.netlify.app/img/portafolio.webp">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="brayanpalacio.netlify.app">
+    <meta property="twitter:url" content="https://brayanpalacio.netlify.app/">
+    <meta name="twitter:title" content="Brayan Palacio | Desarrollador de software">
+    <meta name="twitter:description" content="Desarrollador de software especializado en JavaScript, React, MySQL y PHP. Soluciones tecnológicas innovadoras y eficientes para empresas.">
+    <meta name="twitter:image" content="https://brayanpalacio.netlify.app/img/portafolio.webp">
     <style>
         :root {
             --primary: #5e17eb;
@@ -138,8 +160,8 @@
             display: flex;
             align-items: center;
             padding: 8rem 5% 4rem;
-            background: linear-gradient(135deg, rgba(0, 4, 40, 0.9), rgba(77, 19, 192, 0.7)), 
-                        url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            background: linear-gradient(135deg, rgba(0, 4, 40, 0.9), rgba(36, 8, 92, 0.7)), 
+                        url('Img/background-developer-brayan.png') no-repeat center center/cover;
             position: relative;
             overflow: hidden;
         }
@@ -1264,7 +1286,7 @@
             </div>
             <div class="about-container">
                 <div class="about-image">
-                    <img src="Img/IMG_20241117_203139.jpg" alt="Brayan Palacio">
+                    <img src="Img/brayan-palacio.jpg" alt="Brayan Palacio">
                 </div>
                 <div class="about-content">
                     <div class="about-text">
@@ -1396,7 +1418,7 @@
     <section id="projects">
         <div class="section-container">
             <div class="section-title">
-                <h2>Proyectos</h2>
+                <h2>Proyectos Destacados</h2>
             </div>
             <div class="projects-filter">
                 <button class="filter-btn active" data-filter="all">Todos</button>
@@ -1481,6 +1503,31 @@
                             </a>
                             <a href="#" class="project-link">
                                 <i class="fas fa-external-link-alt"></i> Actualmente aquí
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Img/climaapp.png" alt="Clima App">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Clima App</h3>
+                        <p class="project-description">
+                            Aplicación interactiva desarrollada con React que muestra el clima actual y el pronóstico de los próximos 5 días. Integra la API de OpenWeather, animaciones con Framer Motion, geolocalización y diseño responsivo con TailwindCSS.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TailwindCSS</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">Framer Motion</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Brayan-palacio/clima-app" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="https://clima-app-roan.vercel.app/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
                             </a>
                         </div>
                     </div>
@@ -1601,7 +1648,7 @@
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
-            <p class="footer-copy">&copy; 2024 Brayan Palacio. Todos los derechos reservados.</p>
+           
         </div>
     </footer>
     <div id="credentialsModal" class="modal">
